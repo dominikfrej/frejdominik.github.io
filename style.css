@@ -1,0 +1,93 @@
+/* Basic styling for the portfolio */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.portfolio-gallery {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.portfolio-gallery h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-item {
+    margin: 20px;
+    flex-basis: calc(33.333% - 40px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #eaeaea;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
